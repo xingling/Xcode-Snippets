@@ -26,6 +26,8 @@
 2. 在你想要导入的mac上，找到~/Library/Developer/Xcode/UserData/CodeSnippets，把拷贝的文件粘贴进去，
 3. 重启Xcode，就哦了~
 
+
+
 其他地方的snippets也是一样的导入方式。
 
 ---
