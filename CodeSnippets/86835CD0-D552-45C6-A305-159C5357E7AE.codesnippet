@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>icatbs</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (NSAttributedString *)iconAttributedString:(NSString *)image {
+    NSTextAttachment *iconAttachment = [[NSTextAttachment alloc] init];
+    iconAttachment.bounds = CGRectMake(0, 0, 16, 16);
+    //iconAttachment.bounds = CGRectMake(-4, -(self.name.bounds.size.height - 14)/2, 28, 14);
+    iconAttachment.image = [UIImage imageNamed:@"&lt;##&gt;"];
+    NSAttributedString *icon = [NSAttributedString attributedStringWithAttachment:iconAttachment];
+    return icon;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>86835CD0-D552-45C6-A305-159C5357E7AE</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>icatbs</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>IconAttributedString</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

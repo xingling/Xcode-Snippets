@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uiiv</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIImageView *)&lt;#imageView#&gt; {
+if (!&lt;#imageView#&gt;) {
+UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@""]];
+imageView.contentMode = UIViewContentModeScaleAspectFill;
+&lt;#imageView#&gt; = imageView;
+}
+
+return &lt;#imageView#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>EF1AE272-8FF7-4209-B39E-B8E3643FDA08</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>uiiv</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIImageView - Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

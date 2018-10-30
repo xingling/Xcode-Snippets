@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>uib</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)&lt;#button#&gt; {
+    if (&lt;#button#&gt;) {
+        UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 44, 44)];
+        btn.titleLabel.text = @"";
+        [btn setBackgroundColor:[UIColor greenColor]];
+        [btn addTarget:self action:@selector(onBtnClicked:) forControlEvents:UIControlEventTouchUpInside];
+        &lt;#button#&gt; = btn;
+        [&lt;#parentView#&gt; addSubview:&lt;#button#&gt;];
+    }
+    return &lt;#button#&gt;;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3DD8DF17-AAA0-4F7E-BF48-E71F0173C04E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>uib</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UIButton - Getter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
