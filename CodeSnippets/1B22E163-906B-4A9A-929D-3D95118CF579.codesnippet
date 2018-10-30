@@ -9,8 +9,7 @@
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UILabel *)&lt;#label#&gt;
-{
+	<string>- (UILabel *)&lt;#label#&gt; {
     if (!&lt;#label#&gt;) {
         UILabel* label = [[UILabel alloc] initWithFrame:&lt;#CGRect#&gt;];
         label.backgroundColor = &lt;#[UIColor clearColor]#&gt;;

@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (copy, nonatomic) dispatch_block_t &lt;#block#&gt;;</string>
+	<string>@property (nonatomic, copy) dispatch_block_t &lt;#block#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>0BA825CA-6F6B-4487-9E22-D8411C8718BD</string>
 	<key>IDECodeSnippetLanguage</key>
